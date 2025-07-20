@@ -5,8 +5,8 @@
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
-  --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary: #87CEEB;
+  --color-primary-foreground: #000000;
 
   --color-card: hsl(var(--card));
 
@@ -140,7 +140,7 @@
 
 @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
+         transition-all duration-300 hover:shadow-[#2D5E97]
          hover:scale-105 active:scale-95;
 }
 

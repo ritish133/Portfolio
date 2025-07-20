@@ -31,7 +31,7 @@ const AboutMe = () => {
                 <a
                   href="/Ritish-Kumar-Singh.pdf"
                   download="Ritish-Kumar-Singh"
-                  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-black transition-all duration-300 hover:scale-105 font-medium"
                 >
                   Download CV
                 </a>
